@@ -1,0 +1,17 @@
+[connection]
+id=ens160
+uuid=35a22e14-291e-4efe-9929-19cf4557d1c1
+type=ethernet
+
+[ethernet]
+
+[ipv4]
+address1=192.168.38.172/24,192.168.38.254
+dns=8.8.8.8;8.8.4.4;
+method=manual
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
